@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "backend/server.js": {
+      "includeFiles": ["backend/**"]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/backend/(.*)",
+      "destination": "/backend/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

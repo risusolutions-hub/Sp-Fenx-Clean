@@ -1,0 +1,7 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Placeholder package.json for Vercel build.",
+  "main": "index.js",
+  "license": "MIT"
+}
